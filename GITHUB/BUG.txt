@@ -1,0 +1,40 @@
+. **Login Loop Bug:**
+   - Description: Users are unable to log in to their accounts due to a continuous loop in the login process.
+   - Reproduction Steps:
+     1. Navigate to the login page.
+     2. Enter valid credentials and click on the login button.
+     3. Instead of logging in, the page refreshes or redirects back to the login page.
+   - Expected Behavior: After entering valid credentials, users should be successfully logged into their accounts.
+
+2. **Image Upload Failure:**
+   - Description: Users encounter errors when attempting to upload images to their profiles or posts.
+   - Reproduction Steps:
+     1. Navigate to the profile or post creation/editing page.
+     2. Select an image file from the device and attempt to upload it.
+     3. The upload process fails, and an error message is displayed.
+   - Expected Behavior: Users should be able to upload images successfully without encountering errors.
+
+3. **Data Loss on Form Submission:**
+   - Description: Data entered by users in forms (such as profile updates or post submissions) is lost upon submission.
+   - Reproduction Steps:
+     1. Fill out a form with user data.
+     2. Submit the form.
+     3. Upon submission, the entered data is not saved, and the form resets to its default state.
+   - Expected Behavior: Data entered by users should be saved and reflected correctly upon form submission.
+
+4. **Broken Link Bug:**
+   - Description: Links within the application lead to incorrect or non-existent pages, resulting in a broken user experience.
+   - Reproduction Steps:
+     1. Click on a link within the application interface (e.g., navigation menu, buttons).
+     2. Instead of being redirected to the intended page, users encounter a 404 error or are directed to an unrelated page.
+   - Expected Behavior: Links should navigate users to the correct and relevant pages within the application.
+
+5. **Performance Degradation during Peak Usage:**
+   - Description: The system experiences slowdowns or becomes unresponsive during periods of high user activity.
+   - Reproduction Steps:
+     1. Access the application during peak usage hours.
+     2. Attempt to perform various actions, such as loading pages, submitting forms, or interacting with content.
+     3. Notice significant delays or unresponsiveness in system behavior.
+   - Expected Behavior: The system should maintain consistent performance, regardless of user activity levels.
+
+These hypothetical bugs illustrate common issues that users might encounter in a software system, highlighting the importance of thorough testing and quality assurance processes to ensure a smooth user experience.
